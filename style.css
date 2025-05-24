@@ -19,6 +19,9 @@ body.dark {
 }
 
 .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: #fefefe;
   border-radius: 16px;
   padding: 20px;
@@ -59,18 +62,27 @@ body.dark .card {
   background-color: #0d47a1;
 }
 .avatar {
-  width: 100px;
+  width: 100%;
   height: 100px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.avatar img{
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+}
+.text-box{
+  margin: 10px;
 }
 h1 {
-  margin: 10px 0 5px;
+ 
   font-size: 24px;
 }
 
 h2 {
   font-size: 18px;
-  margin: 0;
   color: #777;
 }
 body.dark h2 {
@@ -84,9 +96,9 @@ p {
 body.dark p {
   color: #f0f0f0;
 }
-.social-links{
-     display: flex;
-    justify-content: center;
+.social-links {
+  display: flex;
+  justify-content: center;
 }
 .social-links a {
   margin: 5px 5px;
@@ -94,12 +106,11 @@ body.dark p {
   border-radius: 20%;
   text-decoration: none;
   color: #1379ff;
-  font-size: 14px;
+ 
   transition: background-color 1s;
 }
-.social-links i{
-  font-size:20px;
- 
+.social-links i {
+  font-size: 20px;
 }
 body.dark .social-links a {
   color: #90caf9;

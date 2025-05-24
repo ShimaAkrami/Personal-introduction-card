@@ -1,0 +1,14 @@
+@media screen and (max-width:500px) {
+  .card {
+    padding: 15px;
+    width: 90%;
+    height: auto;
+  }
+  .avatar {
+    width: 80%;
+    height: 80px;
+  }
+  .social-links i {
+    font-size: 25px;
+  }
+}
