@@ -1,6 +1,5 @@
 body {
   background: linear-gradient(to right, rgb(194, 194, 210), white);
-  background-color: white;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -40,9 +39,17 @@ body.dark .card {
   }
 }
 .darkMode_button{
- padding: 5px;
-    margin-right: -216px;
-    margin-bottom: 10px;
+padding:6px 12px ;
+margin-bottom: 10px;
+border-radius: 6px;
+color:white;
+border:none;
+background-color:#4b8ce3 ;
+cursor:pointer;
+transition:backgrpund-color 0.5s;
+}
+.darkMode_button:hover{
+  background-color: #0d47a1;
 }
 .avatar {
   width: 100px;
